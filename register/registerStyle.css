@@ -10,10 +10,10 @@
 .header {
     overflow: hidden;
     background-color: #fff;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
   }
   
-.header a {
+/* .header a {
     float: left;
     color: black;
     text-align: center;
@@ -23,6 +23,12 @@
     line-height: 25px;
     border-radius: 4px;
     background-color: #f1f1f1;
+} */
+
+.header img{
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
 }
   
   .header a.logo {
@@ -114,6 +120,15 @@ input{
     height: 38px;
     font-size: 18px;
 }
+
+button{
+    outline: none;
+    padding: 0 15px 0 15px;
+    border: 1px solid #C1C2C4;
+    border-radius: 8px;
+    height: 38px;
+    font-size: 18px;
+}
 .submit{
     background-color: #3ECF4C;
     color: #fff;
@@ -131,10 +146,57 @@ input{
     font-weight: bold;
     border: 0px;
 }
-span a{
+
+
+.forget span a{
     font-size: 12px;
     color: #4A505C;
+    text-align: center; 
+}
+
+.forget{
+    text-align: right;
+}
+
+.col li{
+    display: inline-block;
+    column-gap: 7px;
+}
+
+.col{
+    background-color: #fff;
     text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.col2{
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 0px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.col li img{
+    border: 0px solid #ddd;
+    border-radius: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.googlebtn{
+    text-decoration: none;
+    font-size: 14px;
+    color: #4A505C;
+    text-align: center;
+    flex-direction: column;
+    margin: 15px 5px 15px 5px;
+    padding: 10px;
 }
 
 

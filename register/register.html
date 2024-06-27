@@ -7,6 +7,16 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins&display=swap" rel="stylesheet">
+
+     <!-- Number Internasional -->
+     <link rel="stylesheet" href="styles.css" />
+     <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+     />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+     
+     
      <!-- CSS -->
      <link rel="stylesheet" href="registerStyle.css">
      
@@ -18,10 +28,10 @@
 
     <div class="header">
         <img src="/assets/Frame 3.png" alt="">
-        <div class="header-right">
+        <!-- <div class="header-right">
           <a class="active" href="/login/login.html">Masuk</a>
           <a  href="/dist/index.html">Website</a>
-        </div>
+        </div> -->
     </div>
     
     <div class="container">
@@ -33,23 +43,55 @@
                 <div class="paragraph">
                     <p> Yuk daftarkan akunmu sekarang juga </p>
                 </div>
+
+            <div class="input-field">
+                <label for="user"> Nama Lengkap </label>
+                <input type="text" name="Username" id="user" required>             
+            </div>
+
             <div class="input-field">
                 <label for="user"> E-mail </label>
-                <input type="text" name="username" id="user" required>             
+                <input type="email" name="email" id="email" required>             
             </div>
+
+            <div class="input-field">
+                <label for="user"> No. HP  </label>
+                <!-- <form action=""></form> -->
+                <input type="tel" name="phone" id="phone" required>             
+            </div>
+
             <div class="input-field">
                 <label for="pass"> Kata Sandi </label>
                 <input type="password" name="password" id="pass" required>             
             </div>
-            <span><a>Lupa Password?</a></span>
-            <div class="input-field" >
-                <input type="submit" class="submit" name="submit" value="Daftar">
-            </div>
+
             <div class="input-field">
-                <input type="submit" class="register" name="submit" value="Masuk">
+                <label for="pass"> Konfimasi Kata Sandi </label>
+                <input type="password" name="password" id="pass" required>             
+            </div>
+            <div class="forget">
+                <span><a>Lupa Password?</a></span>
             </div>
 
-            <span><a> atau </a></span>
+            
+            <div class="input-field" >
+                <button  type="submit" class="submit" name="submit" value="Daftar">Daftar</button>
+            </div>
+            <div class="input-field">
+                <button type="submit" class="register" name="submit" value="Masuk">Masuk</button>
+                
+            </div>
+
+            <div class="col2">
+                <span><a> atau </a></span>
+            </div>
+
+            <div class="col">
+                <ul>
+                    <li> <img src="/assets/logo-google.jpg" alt="google"></li>
+                    <li> <a href="https://accounts.google.com/login?hl=in" class="googlebtn">Masuk Dengan Google </a>  </li>
+                </ul>
+            </div>
         </div>
         </div>
     </div>
