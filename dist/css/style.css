@@ -49,7 +49,7 @@
 .hero{ 
     display: flex;
     justify-content: center;
-    align-items: ;
+    align-items: center;
     width: 100%;
     min-height: 50vh;
     background-size: cover;
@@ -120,7 +120,10 @@ button{
     background-color: #0b8718;
   }
 
+
+/* kategori  */
 .category{
+    display: flex;
     padding: 10px 0 10px 0;
     width: 90%;
     margin-inline: auto;
@@ -133,7 +136,7 @@ button{
 }
 
 .category .menu-bar p{
-    margin: 10px 0 1px 0;
+    margin: 0px 0 1px 0;
     color: rgba(0, 0, 0, 0.477);
     font-size: 14px;
 }
@@ -143,10 +146,11 @@ button{
     color: #333;
     text-align: center;
     padding: 14px 0 25px 0;
-    margin: 10px 20px 0 0;
+    margin: 10px 0px 0 0;
     font-size: 17px;
     overflow: hidden;
 }
+
 .category .section a:hover{
     background-color: #fff;
     color: #fd3636;
@@ -160,6 +164,70 @@ button{
   }
 
 /* Section Product */
+
+/* .menu-container{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    margin: 50px 0 10px 0;
+    color: #000;
+} */
+.product{
+    padding: 1px 70px 0px 70px;
+    margin-bottom: 50px;
+}
+
+.product .box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+    gap: 5px;
+    
+}
+
+.product .box .box-container{
+    margin: 10px 10px 10px 0 ;
+    padding: 10px;
+    text-align: left;
+    background-color: #dddddda5;
+    border: 1px;
+    border-radius: 10px;
+    
+}
+
+.product .box .box-container img{
+    width: 200px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.product .box .box-container h3{
+    color: #000;
+    font-size: 20px;
+}
+
+.product .box .box-container .price{
+    color: #000;
+    font-size: 15px;
+}
+
+.product .box .box-container .price span{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.product .box .box-container:hover{
+    background: #3ECF4C;
+}
+
+.product .box .box-container:hover > *{
+    color: #fefefe;
+}
+
+.box-container p{
+    margin: 0;
+}
+
+
 
 
 
