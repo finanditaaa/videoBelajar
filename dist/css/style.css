@@ -118,6 +118,7 @@ button{
 
 .button1[type=submit]:hover {
     background-color: #0b8718;
+    cursor: pointer;
   }
 
 
@@ -153,7 +154,7 @@ button{
 
 .category .section a:hover{
     background-color: #fff;
-    color: #fd3636;
+    color: #3ECF4C;
 }
 
 .category a.active {
@@ -217,6 +218,7 @@ button{
 
 .product .box .box-container:hover{
     background: #3ECF4C;
+    cursor: pointer;
 }
 
 .product .box .box-container:hover > *{
@@ -262,11 +264,82 @@ button{
 
 .button2[type=submit]:hover {
     background-color: #0b8718;
+    cursor: pointer;
   }
 
-  /* footer */
+/* Section Newsletter end */
 
-  /* footer end */
+/* footer */
+footer{
+    margin: 50px 50px 30px 70px;   
+    width: 100%;
+    font-size: 14px;
+    bottom: 0;
+    line-height: 20px;
+    /* background-color: #ddd; */
+}
+
+.row{
+    width: 85%;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+ .logoVideo{
+    width: 300px;
+ }
+ 
+ .col h3{
+    padding-bottom: 5px;
+    text-decoration: none;
+ }
+
+ .col p{
+    padding-bottom: 5px;
+}
+
+.row .social{
+    text-decoration: none;
+    color: #000;
+}
+
+.social a{
+    width: 70px;
+    border: 1px #000;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.fa{
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #000;
+}
+.row .social a:hover{
+    color: #3ECF4C;
+    cursor: pointer;
+}
+
+.col p a{
+    text-decoration: none;
+    color: #000;
+}
+
+.col p a:hover{
+    color: #3ECF4C;
+    cursor: pointer;
+}
+.space{
+    margin: 30px;
+ }
+
+
+/* footer end */
 
     
 
