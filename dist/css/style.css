@@ -195,7 +195,7 @@ button{
 }
 
 .product .box .box-container img{
-    width: 400px;
+    width: 455px;
     height: 250px;
     padding-bottom: 10px;
     border-radius: 10px;
@@ -230,9 +230,9 @@ button{
 
 .profile{
     display: flex; 
+    gap: 10px;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-between;
     padding-bottom: 5px;
 
 }
@@ -258,6 +258,7 @@ button{
     width: 20px;
     color: #ddd;
     font-size: 20px;
+    
 }
 
 .box .profile .rating .checked{
@@ -273,6 +274,7 @@ button{
 .box .profile .price p{
     font-size: 20px;
     font-weight: bold;
+    margin-left: 175px;
 
 }
 
